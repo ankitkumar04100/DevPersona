@@ -1,2 +1,0 @@
-- name: Install Dependencies
-  run: npm install --registry=https://registry.npmjs.org/
