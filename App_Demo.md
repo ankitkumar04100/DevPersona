@@ -1,2 +1,2 @@
 ## Live App Demo
-App:[DevPersona](https://dev-spark-experience.lovable.app)
+App: [DevPersona App](https://dev-spark-experience.lovable.app)
