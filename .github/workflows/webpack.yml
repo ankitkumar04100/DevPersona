@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: NodeJS Next.js Build
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x]   # stick to 18.x for now
+        node-version: [18.x]
 
     steps:
     - uses: actions/checkout@v4
@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Cache NPM
+    - name: Cache Node modules
       uses: actions/cache@v3
       with:
         path: ~/.npm
@@ -29,9 +29,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
-    - name: Install Dependencies
-      run: npm install --registry=https://registry.npmjs.org/
+    - name: Install dependencies
+      run: npm install
 
-    - name: Build
+    - name: Build Next.js App
       run: npm run build
 
