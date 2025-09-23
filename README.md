@@ -124,6 +124,6 @@ JavaScript, Next.js, React, Tailwind CSS, Framer Motion, Vercel, FormSubmit, HTM
 
 ## Contact & Support
 - GitHub: [https://github.com/ankitkumar04100/devpersona-portfolio](https://github.com/ankitkumar04100/devpersona-portfolio)  
-- Live App Demo: [https://your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)  
+- Live App Demo: [DevPersona](https://github.com/ankitkumar04100/DevPersona)  
 - Email: ankitkumarforall@gmail.com
 
