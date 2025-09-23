@@ -9,10 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x]
+        node-version: [18.x]   # stick to 18.x for now
 
     steps:
     - uses: actions/checkout@v4
@@ -31,7 +30,8 @@ jobs:
           ${{ runner.os }}-node-
 
     - name: Install Dependencies
-      run: npm install
+      run: npm install --registry=https://registry.npmjs.org/
 
     - name: Build
       run: npm run build
+
