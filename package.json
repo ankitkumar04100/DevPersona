@@ -1,12 +1,5 @@
-{
-  "name": "devpersona-portfolio",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "webpack --mode production"
-  },
-  "devDependencies": {
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
-  }
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
 }
