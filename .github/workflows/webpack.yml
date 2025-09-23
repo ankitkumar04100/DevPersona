@@ -1,4 +1,4 @@
-name: NodeJS Next.js Build
+name: NodeJS Next.js CI
 
 on:
   push:
@@ -34,4 +34,7 @@ jobs:
 
     - name: Build Next.js App
       run: npm run build
+
+    - name: Run Linter
+      run: npm run lint
 
