@@ -123,12 +123,12 @@ JavaScript, Next.js, React, Tailwind CSS, Framer Motion, Vercel, FormSubmit, HTM
 ---
 
 ## Contact & Support
-- GitHub: [https://github.com/ankitkumar04100/devpersona-portfolio](https://github.com/ankitkumar04100/devpersona-portfolio)    
+- GitHub: [https://github.com/ankitkumar04100/devpersona-portfolio](https://github.com/ankitkumar04100/devpersona-portfolio)
 - Email: ankitkumarforall@gmail.com
   
 ---
 
 ## App Demo
-- Live App Demo: [DevPersona](https://github.com/ankitkumar04100/DevPersona)
+- Live App Demo: [DevPersona](https://dev-spark-experience.lovable.app)
 
 
