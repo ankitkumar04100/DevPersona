@@ -1,0 +1,72 @@
+/* globals.css */
+
+/* 1. CSS Reset (modern normalize) */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Body and HTML base styles */
+html {
+  scroll-behavior: smooth; /* Smooth scroll for anchor links */
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Clean, modern font for body text */
+  line-height: 1.6;
+  background-color: theme('colors.lightBg'); /* Default light mode bg */
+  color: theme('colors.gray.800'); /* Default text color */
+  transition: background-color 0.5s, color 0.5s; /* Smooth theme transition */
+}
+
+/* 3. Headings (H1-H6) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; /* Stylish font for headings */
+  font-weight: 700;
+  line-height: 1.2;
+  color: theme('colors.primary');
+}
+
+/* 4. Anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: theme('colors.secondary'); /* Hover effect for links */
+}
+
+/* 5. Buttons */
+button {
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 6. Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 7. Dark Mode Support */
+.dark {
+  --bg-color: theme('colors.darkBg');
+  --text-color: #f3f4f6; /* light gray text */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* 8. Smooth Motion for all interactive elements */
+*:focus {
+  outline: none;
+}
+
