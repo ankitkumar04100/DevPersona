@@ -15,4 +15,4 @@ Unacceptable behavior:
 - Publishing others’ private information without permission
 
 ## Enforcement
-Instances of abusive behavior may be reported by contacting the project team at [your-email@example.com].
+Instances of abusive behavior may be reported by contacting the project team at devpost.
