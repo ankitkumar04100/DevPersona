@@ -49,7 +49,7 @@ You can contribute in multiple ways:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/devpersona.git
+   git clone https://github.com/ankitkumar04100/devpersona.git
    cd devpersona
    ```
 
