@@ -1,0 +1,32 @@
+DevPersona/
+│
+├─ components/             # Reusable React UI components
+│  ├─ Nav.jsx              # Navigation bar at top
+│  ├─ Hero.jsx             # Hero section with intro & CTA
+│  ├─ ProjectsGrid.jsx     # Layout for project cards
+│  ├─ ProjectCard.jsx      # Single project card with image/title/link
+│  ├─ SkillsMap.jsx        # Interactive skills chart
+│  ├─ ContactForm.jsx      # Functional contact form
+│  └─ Footer.jsx           # Footer with social links & copyright
+├─ pages/                  # Next.js pages
+│  ├─ _app.jsx             # Global wrapper, applies styles & theme
+│  ├─ index.jsx            # Homepage: Hero, ProjectsGrid, SkillsMap, ContactForm
+│  └─ projects.jsx         # Optional: detailed project pages
+│
+├─ styles/                 # CSS & Tailwind
+│  ├─ globals.css          # Base styles for entire app
+│  └─ tailwind.css         # TailwindCSS import
+├─ data/                   # Project & skills data
+│  ├─ projects.js          # Array of project objects
+│  └─ skills.js            # Array of skills & proficiency
+├─ .gitignore              # Ignore node_modules, build outputs, env files
+├─ package.json            # Node/Next.js dependencies & scripts
+├─ package-lock.json       # Auto-generated dependency lock
+├─ next.config.js          # Next.js config
+├─ tailwind.config.js      # Tailwind configuration
+├─ README.md               # Project overview, features, demo, deployment
+├─ CONTRIBUTING.md         # How others can contribute to DevPersona
+├─ CODE_OF_CONDUCT.md      # Community guidelines & professional behavior
+├─ LICENSE                 # MIT license for open-source project
+├─ SECURITY.md             # Security reporting instructions
+└─ App_DEMO.md                 # App demo guide & screenshots
